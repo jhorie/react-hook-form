@@ -17,5 +17,5 @@ export default <T>(obj: T, path: string, defaultValue?: unknown) => {
       : result;
   }
 
-  return undefined;
+  return defaultValue ?? undefined;
 };
