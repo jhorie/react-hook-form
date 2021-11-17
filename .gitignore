@@ -35,7 +35,7 @@ example/build/
 
 .DS_Store
 /lib
-/dist
+#/dist
 .idea/
 .rpt2_cache
 package-lock.json
